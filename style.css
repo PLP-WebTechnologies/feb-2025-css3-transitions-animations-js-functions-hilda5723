@@ -1,0 +1,77 @@
+/* 🌈 General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 50px;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* RAINBOW */
+    color: #333;
+    transition: background 0.5s ease-in-out;
+}
+
+/* 🎀 Container */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 💖 Buttons */
+.btn {
+    margin: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+/* 🎨 Rainbow Gradient Buttons */
+#animateBtn {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+#animateBtn:hover {
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+}
+
+#themeBtn {
+    background: black;
+}
+
+#themeBtn:hover {
+    background: gray;
+}
+
+/* 🌟 Animated Box */
+.box {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s ease-in-out, background 0.5s ease-in-out;
+}
+
+/* 🎬 Animation Class (Will be added via JavaScript) */
+.animate {
+    transform: scale(1.2) rotate(360deg);
+    background: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red);
+}
+
+/* 🌙 Dark Mode Theme */
+.dark-mode {
+    background: black;
+    color: white;
+}
